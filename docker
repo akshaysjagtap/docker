@@ -1,0 +1,4 @@
+sudo docker ps -a : display running images in docker container
+sudo docker images -a: display docker images
+sudo docker rm <container-id>: remove container from docker
+sudo docker rmi <image-id>: remove docker image by its id
