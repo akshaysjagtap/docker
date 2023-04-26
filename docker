@@ -2,3 +2,6 @@ sudo docker ps -a : display running images in docker container
 sudo docker images -a: display docker images
 sudo docker rm <container-id>: remove container from docker
 sudo docker rmi <image-id>: remove docker image by its id
+sudo docker pull httpd
+sudo docker run --name apache -p 8090:80 -d httpd: To run httpd at port 80 inside docker and request from 8090 port it will come to this port. 
+sudo docker exec -it <container-id> /bin/bash: login to shell of docker container 
